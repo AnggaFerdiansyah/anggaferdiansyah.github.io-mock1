@@ -70,6 +70,7 @@ body {
 .nav-container {
   position: absolute;
   width: 100%;
+  max-width: 1920px;
   height: 200px;
   background-color: transparent;
   display: flex;
