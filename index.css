@@ -358,12 +358,57 @@ footer p {
 
 /* Breakpoints */
 /* Extra small devices (phones, 600px and down) */
-
+@media (min-width: 480px) and (min-height: 360px) {
+  .navbar {
+    margin-top: 20px !important;
+    padding: 0 80px !important;
+  }
+  .sec-heading {
+    font-size: 2rem !important;
+  }
+  .sec-desc {
+    font-size: 0.8rem !important;
+  }
+  .navbar-menu.active {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  .nav-link {
+    gap: 1px !important;
+  }
+}
+@media (min-width: 1200px) and (min-height: 360px) {
+  .nav-container {
+    height: 150px;
+  }
+  .navbar {
+    margin-top: 0 !important;
+    padding: 0 80px !important;
+  }
+  .sec-heading {
+    width: 600px !important;
+    font-size: 2rem !important;
+  }
+  .sec-desc {
+    width: 500px !important;
+    font-size: 0.8rem !important;
+  }
+  .navbar-menu.active {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  .nav-link {
+    gap: 20px !important;
+  }
+}
 @media only screen and (max-width: 550px) {
   .navbar-menu {
     display: flex;
     gap: 30px;
   }
+
   .nav-link {
     margin: 0;
     display: flex;
